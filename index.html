@@ -3,195 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prajwal Neupane - Electronics & Communication Engineer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Prajwal Neupane - Portfolio</title>
     <style>
-        * {
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: white;
+            text-align: center;
         }
-
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
         header {
-            background-color: #2c3e50;
-            color: white;
-            padding: 100px 0;
-            text-align: center;
+            padding: 50px 20px;
+            font-size: 2rem;
+            font-weight: bold;
         }
-
-        .profile-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            border: 5px solid white;
-        }
-
-        .section {
-            padding: 50px 0;
-            background-color: white;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            color: #2c3e50;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        .about-content {
-            line-height: 1.6;
+        .container {
             max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 0 20px;
-        }
-
-        .skill-card {
-            background-color: #f8f9fa;
+            margin: auto;
             padding: 20px;
-            border-radius: 8px;
-            text-align: center;
         }
-
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 0 20px;
+        .section {
+            margin: 40px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
         }
-
-        .project-card {
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 15px;
-        }
-
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        .social-links {
-            margin-top: 20px;
-        }
-
-        .social-links a {
-            color: white;
-            margin: 0 10px;
-            font-size: 1.5em;
-            transition: color 0.3s;
-        }
-
-        .social-links a:hover {
-            color: #3498db;
+        .contact a {
+            color: #ffcc00;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="https://via.placeholder.com/200" alt="Prajwal Neupane" class="profile-img">
-            <h1>Prajwal Neupane</h1>
-            <p> Electronics, Communication & Information Engineer</p>
-        </div>
+        Welcome to Prajwal Neupane's Portfolio
     </header>
-
-    <section class="section">
-        <div class="container">
+    <div class="container">
+        <div class="section">
             <h2>About Me</h2>
-            <div class="about-content">
-                <p>I am a passionate undergraduate student pursuing my Bachelor's degree in Electronics, Communication and Information at IOE, TU. With a strong foundation in electronics principles and digital communication systems, I am constantly exploring the intersection of technology and innovation.</p>
-                <br>
-                <p>My academic journey has equipped me with knowledge in:</p>
-                <ul>
-                    <li>Analog and Digital Electronics</li>
-                    <li>Communication Systems</li>
-                    <li>Signal Processing</li>
-                    <li>Embedded Systems</li>
-                    <li>Programming (C/C++, Python)</li>
-                </ul>
-            </div>
+            <p>Hi, I'm Prajwal Neupane, a Bachelor student in Electronics, Communication, and Information Engineering. Passionate about technology, embedded systems, and programming.</p>
         </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <div class="skills">
-                <div class="skill-card">
-                    <h3>Circuit Design</h3>
-                    <p>PCB Design, Circuit Simulation</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Programming</h3>
-                    <p>C, Python, MATLAB</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Tools</h3>
-                    <p>Proteus, AutoCAD, Arduino</p>
-                </div>
-            </div>
+        <div class="section">
+            <h2>Skills & Interests</h2>
+            <p>Embedded Systems | C++ | Digital Logic | Cloud Computing | Web Development</p>
         </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project-card">
-                    <h3>Smart Irrigation System</h3>
-                    <p>IoT-based automated plant watering system using soil moisture sensors</p>
-                </div>
-                <div class="project-card">
-                    <h3>Digital Signal Processor</h3>
-                    <p>Implemented FIR filters using MATLAB for audio signal processing</p>
-                </div>
-                <div class="project-card">
-                    <h3>Home Automation</h3>
-                    <p>Bluetooth-controlled appliance system using Arduino</p>
-                </div>
-            </div>
+        <div class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+            <p>LinkedIn: <a href="#">linkedin.com/in/prajwalneupane</a></p>
         </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <h3>Connect with Me</h3>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
-            </div>
-            <p>&copy; 2023 Prajwal Neupane. All rights reserved.</p>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
