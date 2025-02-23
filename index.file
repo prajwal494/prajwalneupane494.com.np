@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Maintenance Message -->
+    <div id="maintenance-message">
+        <h1>🚧 Under Maintenance 🚧</h1>
+        <p>We're currently working on improving the website. Please check back later!</p>
+    </div>
+
+    <!-- Website Content (Hidden during maintenance) -->
+    <div id="website-content" style="display: none;">
+        <header>
+            <h1>Welcome to Our Online Store</h1>
+        </header>
+
+        <main id="product-list">
+            <!-- Products will be dynamically loaded here -->
+        </main>
+
+        <footer>
+            <h3>Contact Us</h3>
+            <div class="social-links">
+                <a href="https://facebook.com/yourcompany" target="_blank">Facebook</a>
+                <a href="https://instagram.com/yourcompany" target="_blank">Instagram</a>
+                <a href="mailto:info@yourcompany.com">Email</a>
+                <a href="/contact">Contact Form</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
